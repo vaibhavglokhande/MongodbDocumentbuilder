@@ -17,4 +17,9 @@ public class AnnotationReader {
 		return annotation;
 	}
 	
+	public Index getIndex(Field field){
+		Index annotation = field.getAnnotation(Index.class);
+		return annotation;
+	}
+	
 }
